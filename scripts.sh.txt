@@ -1,0 +1,17 @@
+#!/bin/bash
+
+
+#ps -ef > output.txt
+
+
+#Sudo su - pcrs
+echo 'Bareilly@25' |sudo su - pcrs
+b=`whoami`
+echo $b
+cd /hilton/ancillary-ctl/groupctl
+a=`pwd`
+echo $a
+#./allctl --is_running --list
+
+ssh= `ssh ccrsxcdsl02uepc`
+echo "hi"
